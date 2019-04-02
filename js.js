@@ -37,14 +37,47 @@ function chooseClass() {
     if (horde[hrace] === "Undead") {
       var urclass = Math.floor(Math.random() * udclasses.length);
       document.getElementById("class").innerHTML = udclasses[urclass];
+      if (udclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (udclasses[urclass] === "Priest") {
+        document.getElementById("class").style.color = "#FFFFFF";
+      } else if (udclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (udclasses[urclass] === "Mage") {
+        document.getElementById("class").style.color = "#40C7EB";
+      } else if (udclasses[urclass] === "Warlock") {
+        document.getElementById("class").style.color = "#8787ED";
+      }
     }
     if (horde[hrace] === "Tauren") {
       var urclass = Math.floor(Math.random() * tauclasses.length);
       document.getElementById("class").innerHTML = tauclasses[urclass];
+      if (tauclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (tauclasses[urclass] === "Druid") {
+        document.getElementById("class").style.color = "#FF7D0A";
+      } else if (tauclasses[urclass] === "Hunter") {
+        document.getElementById("class").style.color = "#ABD473";
+      } else if (tauclasses[urclass] === "Shaman") {
+        document.getElementById("class").style.color = "#0070DE";
+      }
     }
     if (horde[hrace] === "Troll") {
       var urclass = Math.floor(Math.random() * trollclasses.length);
       document.getElementById("class").innerHTML = trollclasses[urclass];
+      if (trollclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (trollclasses[urclass] === "Hunter") {
+        document.getElementById("class").style.color = "#ABD473";
+      } else if (trollclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (trollclasses[urclass] === "Mage") {
+        document.getElementById("class").style.color = "#40C7EB";
+      } else if (trollclasses[urclass] === "Shaman") {
+        document.getElementById("class").style.color = "#0070DE";
+      } else if (trollclasses[urclass] === "Priest") {
+        document.getElementById("class").style.color = "#FFFFFF";
+      }
     }
   } else {
     document.getElementById("faction").style.color = "#144587";
@@ -53,18 +86,62 @@ function chooseClass() {
     if (alliance[arace] === "Human") {
       var urclass = Math.floor(Math.random() * humclasses.length);
       document.getElementById("class").innerHTML = humclasses[urclass];
+      if (humclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (humclasses[urclass] === "Paladin") {
+        document.getElementById("class").style.color = "#F58CBA";
+      } else if (humclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (humclasses[urclass] === "Mage") {
+        document.getElementById("class").style.color = "#40C7EB";
+      } else if (humclasses[urclass] === "Warlock") {
+        document.getElementById("class").style.color = "#8787ED";
+      } else if (humclasses[urclass] === "Priest") {
+        document.getElementById("class").style.color = "#FFFFFF";
+      }
     }
     if (alliance[arace] === "Dwarf") {
       var urclass = Math.floor(Math.random() * dwarfclasses.length);
       document.getElementById("class").innerHTML = dwarfclasses[urclass];
+      if (dwarfclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (dwarfclasses[urclass] === "Paladin") {
+        document.getElementById("class").style.color = "#F58CBA";
+      } else if (dwarfclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (dwarfclasses[urclass] === "Hunter") {
+        document.getElementById("class").style.color = "#ABD473";
+      } else if (dwarfclasses[urclass] === "Priest") {
+        document.getElementById("class").style.color = "#FFFFFF";
+      }
     }
     if (alliance[arace] === "Night-Elf") {
       var urclass = Math.floor(Math.random() * neclasses.length);
       document.getElementById("class").innerHTML = neclasses[urclass];
+      if (neclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (neclasses[urclass] === "Druid") {
+        document.getElementById("class").style.color = "#FF7D0A";
+      } else if (neclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (neclasses[urclass] === "Hunter") {
+        document.getElementById("class").style.color = "#ABD473";
+      } else if (neclasses[urclass] === "Priest") {
+        document.getElementById("class").style.color = "#FFFFFF";
+      }
     }
     if (alliance[arace] === "Gnome") {
       var urclass = Math.floor(Math.random() * gnomeclasses.length);
       document.getElementById("class").innerHTML = gnomeclasses[urclass];
+      if (gnomeclasses[urclass] === "Warrior") {
+        document.getElementById("class").style.color = "#C79C6E";
+      } else if (gnomeclasses[urclass] === "Mage") {
+        document.getElementById("class").style.color = "#40C7EB";
+      } else if (gnomeclasses[urclass] === "Rogue") {
+        document.getElementById("class").style.color = "#FFF569";
+      } else if (gnomeclasses[urclass] === "Warlock") {
+        document.getElementById("class").style.color = "#8787ED";
+      }
     }
   }
 

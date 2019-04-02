@@ -4,20 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Heebo:400,700"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Praise RNGesus!</title>
   </head>
   <body>
-    <div>
-      <h1>Faction: <span id="faction"></span></h1>
-      <h1>Race: <span id="race"></span></h1>
-      <h1>Gender: <span id="gender"></span></h1>
-      <h1>Class: <span id="class"></span></h1>
+    <div class="generator">
+      <div>
+        <h1>What to play?!</h1>
+        <h1>Faction: <span id="faction"></span></h1>
+        <h1>Gender: <span id="gender"></span></h1>
+        <h1>Race: <span id="race"></span></h1>
+        <h1>Class: <span id="class"></span></h1>
+      </div>
     </div>
-
-    <button id="chooseclass" onclick="chooseClass()">
-      Let RNGesus decide!
-    </button>
+    <div class="clickit">
+      <button id="chooseclass" onclick="chooseClass()">
+        Let RNGesus decide!
+      </button>
+    </div>
 
     <script src="js.js"></script>
   </body>
